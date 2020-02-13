@@ -1,0 +1,70 @@
+.form-grid
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+.form-grid-i
+{
+    display: grid;
+    grid-template-rows: repeat(5,auto);
+}   
+
+/*offer*/
+.offer-grid
+{display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+
+/*market*/
+.market-grid
+{display: grid;
+    grid-template-rows: repres(2,auto);
+}
+.market-grid-i
+{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+}
+
+/*Why choose us*/
+
+.why-grid
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+.why-grid-i
+{
+    display: grid;
+    grid-template-rows:repeat(4,auto) ;
+}
+
+/*technical partner*/
+.tech-grid
+{display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+.tech-grid-i
+{
+    display: grid;
+    grid-template-rows:repeat(3,auto) ;
+}
+
+/*Technical grid*/
+.digital-grid
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+}
+/*content are*/
+.content-grid
+{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+}
+.content-grid-i
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}

@@ -1,0 +1,32 @@
+
+
+.grid-client-1,.grid-client-2,.grid-client-3
+{
+    display: none;
+}
+
+#iconer-1:checked ~ .grid-client-1
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+#iconer-2:checked ~ .grid-client-2
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+#iconer-3:checked ~ .grid-client-3
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.client-img
+{
+    width: 100%;
+    height: auto;
+}

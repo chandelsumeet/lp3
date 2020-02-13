@@ -1,0 +1,49 @@
+.tabs
+{
+    list-style-type: none;
+    position: relative;
+    margin: auto;
+    padding: 0;
+}
+.tabs li
+{
+    float:left ;
+}
+.tabs .tab-content
+{
+    display: none;
+    position: absolute;
+    left:0;
+    border: 1px solid black;
+    background-color: burlywood;
+    width: 100%;
+    height: 300px;
+}
+.tabs li > input
+{
+    display: none;
+}
+.tabs li > label
+{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 0%);
+    /* border-right-width: 0;
+    border-bottom-width:0 ; */
+    line-height: 30px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.tabs li>input:checked +label
+{
+    background-color:gray;
+
+}
+.tabs li>input:checked ~ .tab-content
+{
+    display: block;
+}
+.tabs li:last-child > label
+{
+    border-right-width: 1px;
+}
